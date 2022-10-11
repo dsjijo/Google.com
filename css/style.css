@@ -1,162 +1,155 @@
-*{
-	padding: 0;
-	margin:0;
-	box-sizing: border-box;
-	text-decoration: none;
-	font-family: arial, sans-serif;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+    text-decoration: none;
 }
+
+html{
+    font-size: 62.5%;
+}
+
 body {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+    
+}
+
+.nav-div {
+    position: relative;
+    height: 10rem;
 }
 nav {
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	margin-right: 30px;
-	margin-top: 14px;
+    height: 10rem;
+    position: absolute;
+    right: 0;
+    
 }
 nav a {
-	font-size: 13px;
+	font-size: 1.3rem;
 	display: inline-block;
-	line-height: 24px;
+	line-height: 2.4rem;
 	font-weight: 400;
 	color: rgb(0,0,0, 0.87);
 	cursor: pointer;
-	padding: 5px 6.7px
+	padding: .5rem .67rem
 }
 nav a:hover {
 	text-decoration: underline;
 	opacity: .85;
 }
 nav img {
-	width: 34px;
-	padding: 5px;
-	margin: auto 7px;
 	cursor: pointer;
 }
 nav img:hover {
 	opacity: .8;
 }
 nav button {
-	border: 1px solid #4285f4;
+	border: .1rem solid #4285f4;
 	font-weight: bold;
 	outline: none;
 	background: #4285f4;
 	color: #fff;
-	padding: 7px 12px;
-	border-radius: 3px;
-	margin-left: 7px;
+	padding: .7rem 1.2rem;
+	border-radius: .3rem;
+	margin-left: .7rem;
 	cursor: pointer;
+    margin-right: 1rem;
 }
 .section-1 {
-	flex: 1;
+    text-align: center;
 }
-.section-1 .logo {
-	display: block;
-	margin: 0px auto;
-	margin-top: 107px;
+.section-2 {
+    text-align: center;
 }
 .s-box {
-	width: 580px;
-	margin: 0px auto;
-	position: relative;
-	margin-top: -8px;
-	text-align: center;
-}
-.s-box .s-input {
-	display: block;
-	border: 1px solid #ddd;
-	color: rgba(0,0,0, 0.87);
-	font-size: 16px;
-	padding: 13px;
-	padding-left: 45px;
-	border-radius: 25px;
-	width: 100%;
-	transition: box-shadow 100ms;
-	outline: none;
-}
-.s-box  .s-input:hover {
-	border: 1px solid #fff;
-	box-shadow: 0 0 2px rgba(0, 0, 0, 0.05), 
-				0 0 2px rgba(0, 0, 0, 0.05),
-				0 0 3px rgba(0, 0, 0, 0.05),
-				0 0 4px rgba(0, 0, 0, 0.05), 
-				0 0 5px rgba(0, 0, 0, 0.05), 
-				0 0 4px rgba(0, 0, 0, 0.05), 
-				0 0 5px rgba(0, 0, 0, 0.05)
+    position: relative;
+    text-align: center;
+    width: 580px;
+    margin: 0px auto;
 }
 .s-box .search-icon {
-	width: 20px;
-	opacity: .4;
-	position: absolute;
-	top: 13px;
-	left: 14px;
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    width: 20px;
 }
-.s-box .vs-icon {
-	width: 14px;
-	position: absolute;
-	top: 13px;
-	right: 24px;
+.s-box .search-voice-icon {
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
+    width: 15px;
 }
+.s-input {
+    display: block;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 13px;
+    border-radius: 25px;
+}
+
 .s-btn {
-	border: 1px solid transparent;
-	padding: 9px 15px;
+
+    border: .1rem solid transparent;
+	padding: .9rem 1.5rem;
 	color: #666;
-	font-size: 14px;
-	border-radius: 4px;
+	font-size: 1.4rem;
+	border-radius: .4rem;
 	display: inline-block;
-	margin-right: 10px;
-	margin-top: 28px;
+	margin-right: 1rem;
+	margin-top: 2.8rem;
 	outline: none;
 	cursor: pointer;
-	transition: border-color 100ms;
 }
-.s-btn:hover {
-	border: 1px solid #aaa;
-}
+
 .lang {
-	margin-top: 30px;
+	margin-top: 3rem;
 	text-align: center;
-	font-size: 13px;
+	font-size: 1.3rem;
 	color: #111;
 }
 .lang a {
-	margin-left: 5px;
+	margin-left: .5rem;
 	color: #1a0dab;
 }
 .lang a:hover {
 	text-decoration: underline;
 }
 footer {
-	background: #f2f2f2;
+    margin-top: 14%;
+    background: #f2f2f2;
 }
 footer h4 {
+    
 	color: rgba(0,0,0, 0.54);
-	font-size: 15px;
-	line-height: 39.5px;
+	font-size: 1.5rem;
+	line-height: 4rem;
 	font-weight: 400;
-	padding-left: 29px;
+	padding-left: 3rem;
 	border: 1px solid #eee;
 }
+
 footer a {
 	color: #5f6368;
 	display: inline-block;
-	padding: 12px 11.3px;
-	font-size: 14px;
+	padding: 1.2 rem;
+	font-size: 1.4rem;
 }
-footer a:hover {
-	text-decoration: underline;
-}
+
 .links {
 	border-top: 1px solid #ddd;
-	display: flex;
+	position: relative;
+    background: #f2f2f2;
 }
-.link-1 {
+.links-1 {
+    background: #f2f2f2;
+    position: absolute;
 	padding-left: 18.7px;
-	flex: 1;
+    left: 0;
 }
-.link-2 {
+.links-2 {
+    background: #f2f2f2;
+    position: absolute;
+    right: 0;
 	padding-right: 18.7px;
 }
