@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+    
+}
+
+.nav-div {
+    position: relative;
+    height: 10rem;
+}
+nav {
+    height: 10rem;
+    position: absolute;
+    right: 0;
+    
+}
+nav a {
+	font-size: 1.3rem;
+	display: inline-block;
+	line-height: 2.4rem;
+	font-weight: 400;
+	color: rgb(0,0,0, 0.87);
+	cursor: pointer;
+	padding: .5rem .67rem
+}
+nav a:hover {
+	text-decoration: underline;
+	opacity: .85;
+}
+nav img {
+	cursor: pointer;
+}
+nav img:hover {
+	opacity: .8;
+}
+nav button {
+	border: .1rem solid #4285f4;
+	font-weight: bold;
+	outline: none;
+	background: #4285f4;
+	color: #fff;
+	padding: .7rem 1.2rem;
+	border-radius: .3rem;
+	margin-left: .7rem;
+	cursor: pointer;
+    margin-right: 1rem;
+}
+.section-1 {
+    text-align: center;
+}
+.section-2 {
+    text-align: center;
+}
+.s-box {
+    position: relative;
+    text-align: center;
+}
+.s-box .search-icon {
+    position: absolute;
+    left: 0;
+    width: 20px;
+}
+.s-box .search-voice-icon {
+    position: absolute;
+    right: 0;
+    width: 20px;
+}
+.s-input {
+    display: block;
+}
+/* .search-voice-icon,.search-icon{
+    width: 5rem;
+} */
+.s-btn {
+
+    border: .1rem solid transparent;
+	padding: .9rem 1.5rem;
+	color: #666;
+	font-size: 1.4rem;
+	border-radius: .4rem;
+	display: inline-block;
+	margin-right: 1rem;
+	margin-top: 2.8rem;
+	outline: none;
+	cursor: pointer;
+	transition: border-color 100ms;
+}
+
+.lang {
+	margin-top: 3rem;
+	text-align: center;
+	font-size: 1.3rem;
+	color: #111;
+}
+.lang a {
+	margin-left: .5rem;
+	color: #1a0dab;
+}
+.lang a:hover {
+	text-decoration: underline;
+}
